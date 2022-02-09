@@ -52,7 +52,7 @@ log = { version = "0.4", default-features = false }
 axia-wasm = { git = "https://github.com/axia-tech/axia-wasm", branch = "v0.42.2", version = "0.42.2", default-features = false }
 
 # Dependencies only used by the binaries
-clap = { version = "2", optional = true }
+clap = { version = "3", optional = true }
 env_logger = { version = "0.9", optional = true }
 glob = { version = "0.3", optional = true }
 lazy_static = { version = "1", optional = true }
